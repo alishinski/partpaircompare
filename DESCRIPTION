@@ -1,9 +1,12 @@
 Package: partpaircompare
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1
+Title: Comparing Means Using Partially Paired Data
+Version: 0.1.0.9000
 Date: 2015-10-29
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Authors@R: person("Alex", "Lishinski", email = "alexlishinski@gmail.com", role = c("aut", "cre"))
+Description: This package implements a number of methods for comparing means between two sets of data when the samples are
+aartially paired, but there is data in both sets that is not paired.  The methods are described in detail in Guo and Yuan (2015).  The tests
+implemented include pooled t-test and weighted t-test from Samawi and Vogel (2014), optimal pooled t-test devised by Guo and Yuan, corrected z-test
+from Looney and Jones (2003), and modified maximum likelihood estimator from Lin and Stivers (1974).
+License: GPL-3
 LazyData: TRUE
